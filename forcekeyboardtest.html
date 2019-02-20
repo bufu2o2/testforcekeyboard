@@ -8,15 +8,28 @@
 
 <style>
     #blah{
-        opacity: 0;
+        opacity: 1;
     }
+    .textbox{
+   margin: 20px auto;
+    width: 800px;
+    height: 550px;
+    border: 5px inset lightblue;
+    border-radius: 3px;
+    background-color: black;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(100px, auto);
+    opacity: .85;
+        
 </style>
 
 </head>
 <body>
     
 <div id = blah>
-    <input type="text" id="blah" value="A text field">
+    <textarea class = textbox type="text" id="blah" value="A text box">
     
 </div>
 <p>update2</p>
